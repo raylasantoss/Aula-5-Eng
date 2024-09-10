@@ -1,0 +1,28 @@
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(255, 129, 207);
+    height: 100vh;
+}
+nav {
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    background: linear-gradient(rgb(194, 88, 255),rgb(203, 255, 143));
+    padding: 100px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color:rgb(203, 255, 143);
+    padding: 40px;
+    
+  }
+  body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
